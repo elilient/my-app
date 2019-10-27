@@ -81,7 +81,7 @@ class TodoHeader extends React.Component {
     }
 }
 
-class TodoApp extends React.Component {
+export class TodoApp extends React.Component {
     constructor (props) {
         super(props);
         this.addItem = this.addItem.bind(this);
